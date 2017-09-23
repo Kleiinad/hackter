@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Google</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1, maximum-scale=1, minium-scale1">
+        <link rel="icon" href="Imagenes/icon.ico">
+        <style>
+
+            html {
+                min-height: 100%;
+                position: relative;
+            }
+
+            body{
+                margin: 0;
+                margin-bottom: 70px;                
+            }
+
+            .pag{
+                min-width: 60%;
+            }
+            /*menu principal*/
+            .menu {
+                background-color: white;            
+                text-align: right;
+                padding: 20px 0px;
+            }
+
+            .menu a {
+                font-family: Arial, Helvetica, sans-serif;
+                color: #000000;
+                font-size: 13px;
+                text-decoration: none;
+                padding: 0px 20px 0px 0px;
+
+            }
+            .menu a:hover{
+                text-decoration: underline;
+                color: #252525;
+            }
+            /*google*/
+            .logo {            
+                background-color:#FFFFFF;
+
+            }
+
+            .logo img{
+                padding: 150px 0px 0px 0px; 
+                height: 120px;            
+            }
+
+            .barra {
+                width: 510px;
+                height: 40px;
+                /*border: 0px;*/
+            
+            }
+            /*botones buscar en google y me siento con suerte*/
+            button{
+                margin: 0px;
+            }            
+            .button a {
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 13.2px;
+                font-family:Arial, Helvetica, sans-serif;
+                padding: 10px 20px;
+                margin: 20px;
+                border: 100px;
+                text-align: center;
+                color: #757575;
+                background-color: #F2F2F2;            
+            }
+            .button a:hover{
+                cursor: pointer;
+                color: black;
+                background-color: #EBEBEB;
+                border-top: 1px solid rgba(0, 0, 0, 0.1);
+                border-right: 1px solid rgba(0, 0, 0,0.1);   
+                border-bottom: 1px solid rgba(0, 0, 0,0.1);
+                border-left: 1px solid rgba(0, 0, 0,0.1);
+                padding: 9px 19px;                
+            }
+            /* Pie de pagina*/
+            .pie-de-pag {
+                background-color:#F1F1F1;
+                position: absolute;
+                width: 100%;
+                bottom: 0px;
+                height: 27px;
+                padding: 25px 0px 0px 0px;
+                border-top: 1px solid #E6E6E6;                                      
+            }
+            /*Pie de pagina derecha*/
+            .link-pie-r ul{
+                margin: 0;
+                list-style: none;
+                padding: 0;
+                display: flex;
+            }
+                
+            .link-pie-r a {
+                font-family: Arial, Helvetica, sans-serif;
+                color: #5F5F5F;
+                font-size: 13px;               
+                padding: 0px 20px;      
+                text-decoration: none;                
+            }
+
+            .link-pie-r {               
+                display: flex;
+                justify-content: flex-end;  
+                /*float: right;*/ 
+            }
+
+            .nav li ul {
+                display: none;
+                min-width: 240px;
+                position: relative;
+            }
+            .nav > li {
+                float: left;
+            }
+            
+            .nav li:hover > ul {
+                display: block;
+
+            }
+            /*pie de pagina izquierda*/
+            .link-pie-l ul{
+                margin: 0;
+                list-style: none;
+                padding: 0;
+                display: flex;
+                
+            }
+            .link-pie-l a {
+                font-family: Arial, Helvetica, sans-serif;
+                color: #5F5F5F;
+                font-size: 13px;
+                padding: 0px 20px;      
+                text-decoration: none;
+            }
+
+            .link-pie-l {
+                display: flex;
+                justify-content: flex-start;
+                float: left;
+            }
+           
+            .link-pie-l a:hover{
+                text-decoration: underline;
+            }
+            .link-pie-r a:hover{
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="pag">
+            <div class="menu">
+                <ul>
+                    <li><a href="https://www.google.com/gmail/" target="_blank">Gmail</a></li>
+                    <li><a href="https://www.google.com.mx/imghp?hl=es&tab=wi">Imágenes</a></li>
+                </ul>
+            </div>           
+       <div class="logo">
+            <center>          
+                <img src="http://pngimg.com/uploads/google/google_PNG19644.png">
+            </center>
+        </div>
+        
+        <div class="buscador">
+            <center>
+                <input class="barra" type="search" name="busqueda">
+
+            </center>          
+        </div>
+
+        <div class="button">
+            <center>
+                <br> <br>
+                <a href="">Buscar en Google</a>
+                <a href="">Me siento con suerte</a>
+            </center> 
+        </div>
+
+        <div class="pie-de-pag">
+            <div class="link-pie-l">
+                <ul>
+                    <li>
+                    <li>
+                    <li>
+                </ul>
+            </div>
+            
+            <div class="link-pie-r">
+                <ul class="nav">
+                    <li><a href="https://www.google.com.mx/intl/es-419/policies/privacy/?fg=1">Privacidad</a></li> 
+                    <li><a href="https://www.google.com.mx/intl/es-419/policies/terms/regional.html">Condiciones</a></li> 
+                    <li><a href="">Preferencias</a> 
+                        <ul>
+                            <li><a href="">Cofiguracion de búsqueda</a></li>
+                            <li><a href="">Busqueda avanzada</a></li>
+                            <li><a href=""></a>Historia</li>
+                            <li><a href=""></a>Ayuda de búsqueda</li>
+                            <li><a href=""></a>Enviar Comentarios</li>
+                        </ul>
+                    </li>
+                   <li><a href="">Utilizar Google.com.mx</a></li>               
+                </ul>             
+            </div>
+        </div>
+        </div> 
+    </body>
+</html>
